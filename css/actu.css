@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Titre principal */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Bouton en haut */
+.header-button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-button .button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/* Grille pour les bulles d'actualité */
+.news-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style des bulles */
+.news-bubble {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* Titre et écurie */
+.news-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tag.williams { background-color: #1e90ff; } /* Couleur personnalisée pour Williams */
+.tag.ferrari { background-color: #d32f2f; } /* Couleur personnalisée pour Ferrari */
+.tag.mercedes { background-color: #4caf50; } /* Couleur personnalisée pour Mercedes */
+
+/* Texte d'actualité */
+.news-description {
+    color: #666;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.view-more {
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+/* Image */
+.news-image {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Date et icônes en bas */
+.news-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 15px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
