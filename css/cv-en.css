@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0000006b;
+    margin: 0;
+    padding: 0;
+    }
+    
+            .container {
+                width: 80%;
+                margin: 20px auto;
+                background-color: rgba(255, 255, 255, 0.719);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: row;
+            }
+    
+            .left {
+                background-color: #333;
+                color: rgba(255, 255, 255, 0.719);
+                width: 30%;
+                padding: 20px;
+            }
+    
+            .right {
+                width: 70%;
+                padding: 20px;
+            }
+    
+            h1, h2 {
+                margin-top: 0;
+            }
+    
+            .profile-photo {
+                width: 100%;
+                height: auto;
+                border-radius: 50%;
+                margin-bottom: 20px;
+            }
+    
+            .profile {
+                text-align: center;
+            }
+    
+            .section-title {
+                margin-bottom: 10px;
+                color: rgba(172, 172, 172, 0.719);
+                font-size: 1.2em;
+                font-weight: bold;
+                border-bottom: 2px solid #f81313b4;
+                display: inline-block;
+            }
+    
+            .section {
+                margin-bottom: 20px;
+            }
+    
+            .contact, .interests {
+                margin-top: 20px;
+            }
+    
+            .contact p, .interests p {
+                margin: 5px 0;
+            }
+    
+            .experiences, .education {
+                margin-top: 20px;
+            }
+    
+            .experiences h3, .education h3 {
+                font-weight: normal;
+            }
+    
+            .skills {
+                margin-top: 20px;
+            }
+    
+            .skills ul {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            .skills ul li {
+                background-color: rgba(255, 255, 255, 0.719);
+                margin-bottom: 5px;
+                padding: 5px;
+            }
