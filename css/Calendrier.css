@@ -1,9 +1,9 @@
  /* Style pour le conteneur principal avec un background image */
  .background-container {
-    background: url(https://img.freepik.com/vecteurs-libre/arriere-plan-du-drapeau-rallye-effet-lumiere_1017-53764.jpg) no-repeat fixed 50% 50%;
+    background: url(https://wallpaper.forfun.com/fetch/3b/3bc3d4abf8f720d998aa130d118b2446.jpeg) no-repeat fixed 50% 50%;
     background-size: cover;
     background-position: center;
-    padding: 50px 0; /* Espace autour du conteneur d'images */
+    padding: 100px 0; /* Espace autour du conteneur d'images */
     display: flex;
     justify-content: center;
 }
@@ -13,7 +13,7 @@
     display: flex;
     gap: 20px; /* Espace entre les deux images */
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour le conteneur d'images */
 }
 
@@ -25,9 +25,6 @@
     border-radius: 10px;
 }
 
-
-
-
 /* Style pour les images */
 .image-container {
     display: flex;
@@ -36,7 +33,7 @@
 
 .image-container img {
     width: 50%;
-    max-width: 300px; /* Taille maximale pour chaque image */
+    max-width: 500px; /* Taille maximale pour chaque image */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
