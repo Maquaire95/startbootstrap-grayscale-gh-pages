@@ -1,192 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pilotes de Formule 1</title>
     <link href="../css/pilotes.css" rel="stylesheet">
-    <style>
-        /* Style de base */
-            </style>
+    </style>
 </head>
+
 <body>
-
-<div class="container">
-    <h1>Pilotes de Formule 1</h1>
-    <div class="news-grid">
-        
-        <!-- Bulle pour le pilote 1 -->
-        <div class="news-bubble">
-            <div class="news-header">Max VERSTAPPEN | Red Bull Racing</div>
-            <p class="news-description">
-                Champion du monde en titre, Max Verstappen continue de dominer les circuits avec son talent exceptionnel.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/maxver01.png" alt="Image Max Verstappen" class="news-image">
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="card">
+                <img src="https://d3dup97zc5osq9.cloudfront.net/production/226600/conversions/2025-F1_drivers-MV1_0003_L-large.jpg"
+                    alt="Max Verstappen">
+                <div class="card-content">
+                    <h3>Max VERSTAPPEN | Red Bull Racing</h3>
+                    <p>Champion du monde en titre, Max Verstappen continue de dominer les circuits avec son talent
+                        exceptionnel.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.autohebdo.fr/app/uploads/2024/12/SI202302040059-e1734600905279.jpg"
+                    alt="Liam Lawson">
+                <div class="card-content">
+                    <h3>Liam Lawson | Red Bull Racing</h3>
+                    <p>Jeune pilote talentueux, reconnu pour sa vitesse, sa détermination et sa capacité à s’adapter
+                        rapidement.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.artofhelmets.com/a/l/fr/cdn/shop/files/Leclerc2025_1000x1000.webp?v=1739024168"
+                    alt="Charles Leclerc">
+                <div class="card-content">
+                    <h3>Charles LECLERC | Ferrari</h3>
+                    <p>Charles Leclerc, étoile montante de Ferrari, vise le titre mondial avec une passion inégalée.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://cdn.shopify.com/s/files/1/0781/6429/5966/files/Ferrari_2025_photoshoot_Richard_mille_watch.jpg?v=1739019795"
+                    alt="Lewis HAMILTON">
+                <div class="card-content">
+                    <h3>Lewis HAMILTON | Ferrari</h3>
+                    <p> Légende vivante de la F1, Lewis Hamilton poursuit sa quête de records chez Ferrai !</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.autohebdo.fr/app/uploads/2025/01/Russell-753x494.jpg" alt="George RUSSELL">
+                <div class="card-content">
+                    <h3>George RUSSELL | Mercedes</h3>
+                    <p>Pilote Mercedes depuis ses début en catégories juniors, il prouve son talent au sein de l'équipe
+                        depuis 2022.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://cdn-5.motorsport.com/images/amp/0oOzmRw0/s1000/andrea-kimi-antonelli-mercedes.jpg"
+                    alt="Kimi Antonelli">
+                <div class="card-content">
+                    <h3>Andrea Kimi Antonelli | Mercedes</h3>
+                    <p>Kimi Antonelli, jeune prodige, l'une des étoiles montantes du sport</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://crazeracewears.com/cdn/shop/files/3_8d081e34-f9e4-4f17-98c8-1837d89caf59.webp?v=1736974476&width=1946"
+                    alt="Lando NORRIS">
+                <div class="card-content">
+                    <h3> Lando NORRIS | Mclaren</h3>
+                    <p>Champion constructeur en titre cette année Lando Norris tentera de décrocher le titre pilote.</p>
+                </div>
+            </div>
         </div>
-
-        <!-- Bulle pour le pilote 2 -->
-        <div class="news-bubble">
-            <div class="news-header">Lewis HAMILTON | Mercedes</div>
-            <p class="news-description">
-                Légende vivante de la F1, Lewis Hamilton poursuit sa quête de records avec Mercedes.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/lewham01.png" alt="Image Lewis Hamilton" class="news-image">
-        </div>
-
-        <!-- Bulle pour le pilote 3 -->
-        <div class="news-bubble">
-            <div class="news-header">Charles LECLERC | Ferrari</div>
-            <p class="news-description">
-                Charles Leclerc, étoile montante de Ferrari, vise le titre mondial avec une passion inégalée.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/chalec01.png" alt="Image Charles Leclerc" class="news-image">
-        </div>
-
-        <!-- Exemple pour Sergio Perez -->
-        <div class="news-bubble">
-            <div class="news-header">Sergio PEREZ | Red Bull Racing</div>
-            <p class="news-description">
-                Pilote chevronné, Sergio Pérez apporte son expérience et sa régularité chez Red Bull.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/serper01.png" alt="Image Sergio Perez" class="news-image">
-        </div>
-
-        <!-- Exemple pour Carlos Sainz -->
-        <div class="news-bubble">
-            <div class="news-header">Carlos SAINZ | Ferrari</div>
-            <p class="news-description">
-                Carlos Sainz combine vitesse et régularité pour pousser Ferrari vers les podiums.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/carsai01.png" alt="Image Carlos Sainz" class="news-image">
-        </div>
-
-        <!-- Exemple pour Fernando Alonso -->
-        <div class="news-bubble">
-            <div class="news-header">Fernando ALONSO | Aston Martin</div>
-            <p class="news-description">
-                Double champion du monde, Fernando Alonso apporte son expérience et sa compétitivité chez Aston Martin.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/feralo01.png" alt="Image Fernando Alonso" class="news-image">
-        </div>
-
-        <!-- Continuez jusqu'à la 20e bulle -->
-
-        <!-- Exemple pour Esteban Ocon -->
-        <div class="news-bubble">
-            <div class="news-header">Esteban OCON | Alpine</div>
-            <p class="news-description">
-                Le pilote français Esteban Ocon démontre sa détermination et son talent avec Alpine.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/estoco01.png" alt="Image Esteban Ocon" class="news-image">
-        </div>
-
-        <!-- Exemple pour Pierre Gasly -->
-        <div class="news-bubble">
-            <div class="news-header">Pierre GASLY | Alpine</div>
-            <p class="news-description">
-                Pierre Gasly, vainqueur de Grand Prix, apporte sa rapidité et son intelligence en course à Alpine.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/piegas01.png" alt="Image Pierre Gasly" class="news-image">
-        </div>
-
-        <div class="news-bubble">
-            <div class="news-header">George RUSSELL | Mercedes </div>
-            <p class="news-description">
-                Pilote Mercedes depuis ses début en catégories juniors, il prouve son talent au sein de l'équipe depuis 2022.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/georus01.png" alt="Image Pilote" class="news-image">
-        </div>
-
-        <div class="news-bubble">
-            <div class="news-header">Lance STROLL | Aston Martin </div>
-            <p class="news-description">
-                Pilote Aston martin depuis la saion 2021.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/lanstr01.png" alt="Image Pilote" class="news-image">
-        </div>
-
-        <div class="news-bubble">
-            <div class="news-header"> Lando NORRIS | Mclaren  </div>
-            <p class="news-description">
-                Prodige de l'écurie britanique auteur de 3 victoires en 2024.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/lannor01.png" alt="Image Pilote" class="news-image">
-        </div>
-
-        <div class="news-bubble">
-            <div class="news-header"> Alex ALBON | Williams </div>
-            <p class="news-description">
-                Pilote thaïlandais originaire de la filiale Red Bull.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/alealb01.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Oscar PIASTRI | Mclaren </div>
-            <p class="news-description">
-                Pilotes australien auteur d'une victoire en 2024.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/oscpia01.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Nico HULKENBERG | Hass </div>
-            <p class="news-description">
-                Pilote d'expérience qui pilotera pour stake/Audi en 2025.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/nichul01.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Yuki TSUNIODA | RB Racing Bulls  </div>
-            <p class="news-description">
-                Pilote japonais de la filiale RB.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/yuktsu01.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Kevin Magnussen | Hass  </div>
-            <p class="news-description">
-                Pilote de 32 ans, auteur d'un podium dans sa carrière.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/kevmag01.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Franco COLAPINTO |  Williams </div>
-            <p class="news-description">
-                Pilote argentin remplaçant pour cette fin de saison 2024.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/fracol01.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Liam | RB Racing Bulls  </div>
-            <p class="news-description">
-                Pilote remplaçant pour cette fin de saion 2024 et prétendant a une place chez RB.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2023/pilotes/lialaw01v2.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Valterie BOTTAS | Stake f1  </div>
-            <p class="news-description">
-                2e pilote historique chez mercedes au coté de lewis Hamilton.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/valbot01.png" alt="Image Pilote" class="news-image">
-        </div> 
-
-        <div class="news-bubble">
-            <div class="news-header"> Guanyu ZHOU | Stake F1  </div>
-            <p class="news-description">
-                Pilote chinois auteur de sa 3e saion de F1.
-            </p>
-            <img src="https://aurupteur.com/uploads/image/2024/pilotes/guazho01.png" alt="Image Pilote" class="news-image">
-        </div> 
+    </div>
 
     </div>
-</div>
-
+    <button class="arrow arrow-right" onclick="scrollCarousel(1)">&#10095;</button>
+    </div>
+    <script>
+        const carousel = document.getElementById('carousel');
+        function scrollCarousel(direction) {
+          const scrollAmount = 320;
+          carousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+        }
+      </script>
 </body>
+
 </html>
