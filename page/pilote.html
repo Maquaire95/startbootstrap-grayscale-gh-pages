@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pilotes de Formule 1</title>
     <link href="../css/pilotes.css" rel="stylesheet">
-    </style>
 </head>
 
 <body>
-    <div class="carousel-container">
-        <div class="carousel">
+    <div class="carousel-wrapper">
+        <button class="scroll-btn left">←</button>
+        <div class="carousel-container">
+            <div class="carousel">
             <div class="card">
                 <img src="https://d3dup97zc5osq9.cloudfront.net/production/226600/conversions/2025-F1_drivers-MV1_0003_L-large.jpg"
                     alt="Max Verstappen">
@@ -21,15 +22,17 @@
                         exceptionnel.</p>
                 </div>
             </div>
+
             <div class="card">
                 <img src="https://www.autohebdo.fr/app/uploads/2024/12/SI202302040059-e1734600905279.jpg"
                     alt="Liam Lawson">
                 <div class="card-content">
                     <h3>Liam Lawson | Red Bull Racing</h3>
-                    <p>Jeune pilote talentueux, reconnu pour sa vitesse, sa détermination et sa capacité à s’adapter
+                    <p>Jeune pilote talentueux, reconnu pour sa vitesse, sa détermination et sa capacité à s'adapter
                         rapidement.</p>
                 </div>
             </div>
+
             <div class="card">
                 <img src="https://www.artofhelmets.com/a/l/fr/cdn/shop/files/Leclerc2025_1000x1000.webp?v=1739024168"
                     alt="Charles Leclerc">
@@ -38,6 +41,7 @@
                     <p>Charles Leclerc, étoile montante de Ferrari, vise le titre mondial avec une passion inégalée.</p>
                 </div>
             </div>
+
             <div class="card">
                 <img src="https://cdn.shopify.com/s/files/1/0781/6429/5966/files/Ferrari_2025_photoshoot_Richard_mille_watch.jpg?v=1739019795"
                     alt="Lewis HAMILTON">
@@ -46,14 +50,17 @@
                     <p> Légende vivante de la F1, Lewis Hamilton poursuit sa quête de records chez Ferrai !</p>
                 </div>
             </div>
+
             <div class="card">
-                <img src="https://www.autohebdo.fr/app/uploads/2025/01/Russell-753x494.jpg" alt="George RUSSELL">
+                <img src="https://rentalsport.net/cdn/shop/files/2024-mercedes-amg-petronas-race-fotor-bg-remover-20240222438.png?v=1708557791&width=1445"
+                    alt="George RUSSELL">
                 <div class="card-content">
                     <h3>George RUSSELL | Mercedes</h3>
                     <p>Pilote Mercedes depuis ses début en catégories juniors, il prouve son talent au sein de l'équipe
                         depuis 2022.</p>
                 </div>
             </div>
+
             <div class="card">
                 <img src="https://cdn-5.motorsport.com/images/amp/0oOzmRw0/s1000/andrea-kimi-antonelli-mercedes.jpg"
                     alt="Kimi Antonelli">
@@ -62,6 +69,7 @@
                     <p>Kimi Antonelli, jeune prodige, l'une des étoiles montantes du sport</p>
                 </div>
             </div>
+
             <div class="card">
                 <img src="https://crazeracewears.com/cdn/shop/files/3_8d081e34-f9e4-4f17-98c8-1837d89caf59.webp?v=1736974476&width=1946"
                     alt="Lando NORRIS">
@@ -70,19 +78,58 @@
                     <p>Champion constructeur en titre cette année Lando Norris tentera de décrocher le titre pilote.</p>
                 </div>
             </div>
+        
+
+            <div class="card">
+            <img src="https://mclaren.bloomreach.io/cdn-cgi/image/width=1024,quality=80,format=webp/delivery/resources/content/gallery/mclaren-racing/formula-1/2024/schedule/oscar-cover-2024-sq.jpg"
+                alt=" Oscar PIASTRIS">
+            <div class="card-content">
+                <h3> Oscar PIASTRI | Mclaren</h3>
+                <p>Pilotes australien auteur d'une victoire en 2024.</p>
+            </div>
         </div>
+
+            <div class="card">
+            <img src="https://cdn-5.motorsport.com/images/amp/6zQeggjY/s1000/fernando-alonso-aston-martin-r.jpg"
+                alt="Fernando ALONSO">
+            <div class="card-content">
+                <h3> Fernando ALONSO | Aston Martin</h3>
+                <p>Double champion du monde, Fernando Alonso apporte son expérience et sa compétitivité chez Aston Martin.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://modernracing.store/cdn/shop/files/lance-stroll-aston-martin-raci.jpg?v=1709647588&width=1445"
+                    alt="Lance STROLL">
+                <div class="card-content">
+                    <h3> Lance STROLL | Aston Martin</h3>
+                    <p>Pilote Aston martin depuis la saion 2021.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://www.automobile-magazine.fr/asset/cms/233585/config/180560/gasly-format-site.jpg"
+                    alt="Pierre GASLY ">
+                <div class="card-content">
+                    <h3> Pierre GASLY | Alpine</h3>
+                    <p> Pierre Gasly, vainqueur de Grand Prix, apporte sa rapidité et son intelligence en course à Alpine.</p>
+                </div>
+
+
+            <div class="card">
+                <img src="https://f1only.fr/wp-content/uploads/2024/08/a0e5bad5fefc7ae9c79d2416d9c59c79-l.jpg.webp"
+                    alt="Pierre GASLY ">
+                    <div class="card-content">
+                        <h3> Jack Doohan | Alpine</h3>
+                        <p> Rookie de l'académie d'alpine qui tentera de faire ces preuve pour garder son baquet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="scroll-btn left" onclick="">&#10094;</button>
+        <button class="scroll-btn right" onclick="">&#10095;</button>
     </div>
 
-    </div>
-    <button class="arrow arrow-right" onclick="scrollCarousel(1)">&#10095;</button>
-    </div>
-    <script>
-        const carousel = document.getElementById('carousel');
-        function scrollCarousel(direction) {
-          const scrollAmount = 320;
-          carousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-        }
-      </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
