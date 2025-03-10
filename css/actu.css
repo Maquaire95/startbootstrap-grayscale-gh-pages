@@ -46,22 +46,29 @@ body {
     border-radius: 5px;
 }
 
+/* Grille des cartes */
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
 /* Carte style Pokémon */
 .news-card {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    max-width: 400px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-    border: 2px solid #ffcc00; /* Ajout d'une bordure dorée pour un effet premium */
-    position: relative;
 }
 
 .news-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 15px 30px rgba(255, 204, 0, 0.5); /* Effet lumineux au survol */
 }
 
 /* Image en haut */
