@@ -10,7 +10,7 @@ body {
 
 /* Barre de navigation */
 .navbar {
-    background: linear-gradient(to right, #ff7f7f, #00869e);
+    background: linear-gradient(to right, #000000, #ff0000);
     padding: 15px 0;
     text-align: center;
     width: 100%;
@@ -49,19 +49,19 @@ body {
     border-radius: 5px;
 }
 
-/* Conteneur des actualités */
-.actu-container {
-    display: flex;
-    flex-direction: column;
-    max-width: 800px;
+/* Conteneur de l'album */
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
     width: 100%;
     padding: 20px;
-    margin-top: 20px;
-    gap: 20px;
+    margin-top: 20px; /* Ajusté pour éviter le chevauchement */
 }
 
-/* Style des cartes d'actualité */
-.actu-card {
+/* Style des cartes */
+.photo-card {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
@@ -70,51 +70,18 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
 }
 
-.actu-card:hover {
-    transform: scale(1.02);
-}
-
-/* Image dans chaque actu */
-.actu-card img {
+/* Image dans chaque carte */
+.photo-card img {
     width: 100%;
-    height: 250px;
+    height: 200px;
     object-fit: cover;
 }
 
-/* Contenu texte des actus */
-.actu-content {
+/* Titre ou description de la photo */
+.photo-title {
     padding: 15px;
-    text-align: left;
-}
-
-.actu-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.actu-text {
     font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
-}
-
-/* Bouton lire la suite */
-.actu-btn {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #00869e;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.actu-btn:hover {
-    background-color: #006f83;
+    color: #333;
 }
