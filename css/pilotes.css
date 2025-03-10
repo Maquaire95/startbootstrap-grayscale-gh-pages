@@ -6,31 +6,31 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(0, 0, 255));
-    animation: gradientAnimation 5s ease infinite;
+    background: linear-gradient(45deg, rgb(0, 0, 146), rgba(86, 83, 95));
+    animation: gradientAnimation 10s ease infinite;
 }
 
 @keyframes gradientAnimation {
     0% {
-        background: linear-gradient(45deg, rgba(0, 143, 5, 0), rgb(101, 104, 0));
+        background: linear-gradient(45deg, rgb(255, 174, 0), rgb(0, 0, 0));
     }
     50% {
-        background: linear-gradient(45deg, rgb(255, 0, 0), rgb(255, 0, 0));
+        background: linear-gradient(45deg, rgb(153, 0, 0), rgba(114, 81, 81, 0.959));
     }
     100% {
-        background: linear-gradient(45deg, rgb(0, 0, 255), rgb(225, 0, 255));
+        background: linear-gradient(45deg, rgb(0, 0, 146)rgb(86, 83, 95)5);
     }
 }
 
 .carousel-wrapper {
     position: relative;
-    width: 120%;
+    width: 100%;
     max-width: 1100px;
     overflow: hidden;
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 500px; /* Hauteur fixe pour le carrousel */
+    height: 500px;
 }
 
 .carousel-container {
@@ -50,19 +50,19 @@ body {
 .carousel {
     display: flex;
     gap: 8px;
-    padding: 90px;
+    padding: 20px;
 }
 
 .card {
     flex: 0 0 auto;
-    width: 380px;
+    width: 250px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     scroll-snap-align: start;
     transition: transform 0.3s ease-in-out;
-    height: 100%; /* Faire en sorte que la carte occupe toute la hauteur disponible */
+    height: 400px;
 }
 
 .card:hover {
@@ -70,23 +70,24 @@ body {
 }
 
 .card img {
-    width: 1005%;
-    height: 800%; /* Utiliser la hauteur de la carte */
+    width: 100%;
+    height: 55%;
     object-fit: cover;
 }
 
 .card-content {
-    padding: 150px;
+    padding: 5px;
+    text-align: center;
 }
 
 .card-content h3 {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .card-content p {
-    margin: 80px 0 0;
-    color: #555;
+    margin: 10px 0 0;
+    color: #7464a1;
     font-size: 0.9rem;
 }
 
@@ -114,4 +115,45 @@ body {
 
 .scroll-btn:hover {
     background: rgba(37, 76, 162, 0.9);
+}
+
+/* Barre de navigation */
+.navbar {
+    background: linear-gradient(to right, #000000, #ffffff);
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+    color: #000;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
 }
