@@ -6,19 +6,19 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(45deg, rgb(0, 0, 146), rgba(86, 83, 95));
-    animation: gradientAnimation 10s ease infinite;
+    
+    animation: gradientAnimation 5s ease infinite;
 }
 
 @keyframes gradientAnimation {
     0% {
-        background: linear-gradient(45deg, rgb(255, 174, 0), rgb(0, 0, 0));
+        background: linear-gradient(45deg, rgb(0, 98, 255), rgb(0, 0, 0));
     }
     50% {
         background: linear-gradient(45deg, rgb(153, 0, 0), rgba(114, 81, 81, 0.959));
     }
     100% {
-        background: linear-gradient(45deg, rgb(0, 0, 146)rgb(86, 83, 95)5);
+        background: linear-gradient(45deg, rgb(0, 115, 23), rgb(0, 0, 0));
     }
 }
 
@@ -31,6 +31,7 @@ body {
     align-items: center;
     gap: 10px;
     height: 500px;
+    margin-top: 80px; /* Assurez-vous qu'il y a assez d'espace en haut pour la barre de navigation */
 }
 
 .carousel-container {
@@ -87,7 +88,7 @@ body {
 
 .card-content p {
     margin: 10px 0 0;
-    color: #7464a1;
+    color: #000000;
     font-size: 0.9rem;
 }
 
@@ -119,7 +120,7 @@ body {
 
 /* Barre de navigation */
 .navbar {
-    background: linear-gradient(to right, #000000, #ffffff);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     padding: 15px 0;
     text-align: center;
     width: 100%;
