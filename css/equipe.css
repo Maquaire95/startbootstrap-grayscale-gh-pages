@@ -1,6 +1,6 @@
 /* Barre de navigation */
 .navbar {
-    background: linear-gradient(to right, #000000, #ff0000);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     padding: 15px 0;
     text-align: center;
     width: 100%;
@@ -25,7 +25,7 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 16px;
     padding: 10px 15px;

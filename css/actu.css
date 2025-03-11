@@ -5,7 +5,7 @@ body {
     background-color: #dfdfdf;
 }
 .navbar {
-    background: linear-gradient(to right, #ff0000, #000000);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     padding: 15px 0;
     text-align: center;
     position: fixed;
@@ -23,7 +23,7 @@ body {
 }
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     padding: 10px 15px;
     transition: 0.3s;
